@@ -1,0 +1,18 @@
+rules:
+  troponin:
+    canonical_name: "Troponin I"
+    unit: "ng/mL"
+    normal_max: 0.04
+    critical_min: 0.40
+  potassium:
+    canonical_name: "Serum Potassium"
+    unit: "mEq/L"
+    normal_range: [3.5, 5.1]
+    critical_low: 2.8
+    critical_high: 6.2
+  wbc:
+    canonical_name: "White Blood Cell Count"
+    unit: "x10^3/uL"
+    normal_range: [4.5, 11.0]
+    critical_low: 2.0
+    critical_high: 25.0
